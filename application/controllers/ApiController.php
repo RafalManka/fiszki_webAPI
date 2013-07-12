@@ -3,62 +3,41 @@
 class ApiController extends Zend_Controller_Action
 {
 
-    public function init()
-    {
-
+    public function init() {
+	
         $this->_helper->viewRenderer->setNoRender(true);
-
-        $this->_todo = array (
-          "de" => array(
-                "Dzień"=>"Tag",
-                "Dobry"=>"Gut",
-                "Do widzenia"=>"Aufviedersehen"
-                ),
-          "en" => array(
-                "Dzień"=>"Day",
-                "Dobry"=>"Good",
-                "Do widzenia"=>"Good bye"
-                ),
-          "ita" => array(
-                "Dzień"=>"El sol",
-                "Dobry"=>"bueno",
-                "Do widzenia"=>"muchos gracias"
-                ),
-        );
-
     }
 
-    public function indexAction()
-    {
-       echo Zend_Json::encode($this->_todo);
-    }
-
-    public function getAction()
-    {
+    public function indexAction() {
        
-       $id =  $_GET['lang']; 
-       echo Zend_Json::encode($this->_todo[$id]);
     }
+ 	
+    public function getAction() {   
 
-    public function postAction()
-    {
-        // action body
-    }
+        switch ($this->getRequest()->getParam('id')) {
+            case 'fetchLanguages':
+                $model = new Application_Model_DbTable_Language();
+                $words = $model->fetchLanguages();
+                break;
+            case 'fetchTopics':
+                $model = new Application_Model_DbTable_Topic();
+                $words = $model->fetchTopics($_GET['language']);
+                break;
+            case 'fetchWords':
+             $model = new Application_Model_DbTable_Words();
+                $words = $model->fetchWords($_GET['language'],$_GET['topic']);
+                break;
+            default:
+                echo 'action was not specified';
+                break;
+        }
 
-    public function putAction()
-    {
-        // action body
-    }
-
-    public function deleteAction()
-    {
-        // action body
-    }
-
+    	echo Zend_Json::encode($words);
+    
 
 }
 
-
+}
 
 
 
