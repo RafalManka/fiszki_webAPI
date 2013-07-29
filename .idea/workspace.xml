@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4600c745-27b2-4575-b872-a5bff9fc0a4b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/application/controllers/ImportControllerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/fiszki_webAPI.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/DbTable/Wordhastranslation.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/application/models/DbTable/WordHasWordset.php" afterPath="$PROJECT_DIR$/application/models/DbTable/Wordhaswordset.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/WindowsAzure/CommandLine/Scaffolders/DefaultScaffolder.phar" afterPath="$PROJECT_DIR$/library/Zend/Service/WindowsAzure/CommandLine/Scaffolders/DefaultScaffolder.phar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/WindowsAzure/CommandLine/Scaffolders/DefaultScaffolder/resources/PhpOnAzure.Web/resources/WebPICmdLine/Microsoft.Web.Deployment.dll" afterPath="$PROJECT_DIR$/library/Zend/Service/WindowsAzure/CommandLine/Scaffolders/DefaultScaffolder/resources/PhpOnAzure.Web/resources/WebPICmdLine/Microsoft.Web.Deployment.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/WindowsAzure/CommandLine/Scaffolders/DefaultScaffolder/resources/PhpOnAzure.Web/resources/WebPICmdLine/Microsoft.Web.PlatformInstaller.UI.dll" afterPath="$PROJECT_DIR$/library/Zend/Service/WindowsAzure/CommandLine/Scaffolders/DefaultScaffolder/resources/PhpOnAzure.Web/resources/WebPICmdLine/Microsoft.Web.PlatformInstaller.UI.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/WindowsAzure/CommandLine/Scaffolders/DefaultScaffolder/resources/PhpOnAzure.Web/resources/WebPICmdLine/Microsoft.Web.PlatformInstaller.dll" afterPath="$PROJECT_DIR$/library/Zend/Service/WindowsAzure/CommandLine/Scaffolders/DefaultScaffolder/resources/PhpOnAzure.Web/resources/WebPICmdLine/Microsoft.Web.PlatformInstaller.dll" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/WindowsAzure/CommandLine/Scaffolders/DefaultScaffolder/resources/PhpOnAzure.Web/resources/WebPICmdLine/WebpiCmdLine.exe" afterPath="$PROJECT_DIR$/library/Zend/Service/WindowsAzure/CommandLine/Scaffolders/DefaultScaffolder/resources/PhpOnAzure.Web/resources/WebPICmdLine/WebpiCmdLine.exe" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitattributes" afterPath="$PROJECT_DIR$/.gitattributes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/.htaccess" afterPath="$PROJECT_DIR$/public/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.zfproject.xml" afterPath="$PROJECT_DIR$/.zfproject.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Gdata/YouTube/Extension/AboutMe.php" afterPath="$PROJECT_DIR$/library/Zend/Gdata/YouTube/Extension/AboutMe.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Amf/Auth/Abstract.php" afterPath="$PROJECT_DIR$/library/Zend/Amf/Auth/Abstract.php" />
@@ -1232,6 +1235,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Session/Validator/HttpUserAgent.php" afterPath="$PROJECT_DIR$/library/Zend/Session/Validator/HttpUserAgent.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Gdata/App/IOException.php" afterPath="$PROJECT_DIR$/library/Zend/Gdata/App/IOException.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/Response/IpLocation/IPAddressLocationType.php" afterPath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/Response/IpLocation/IPAddressLocationType.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/Wsdl/IPLocation.wsdl" afterPath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/Wsdl/IPLocation.wsdl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/Wsdl/IPLocation.xsd" afterPath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/Wsdl/IPLocation.xsd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Validate/Iban.php" afterPath="$PROJECT_DIR$/library/Zend/Validate/Iban.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Db/Adapter/Pdo/Ibm.php" afterPath="$PROJECT_DIR$/library/Zend/Db/Adapter/Pdo/Ibm.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Db/Statement/Pdo/Ibm.php" afterPath="$PROJECT_DIR$/library/Zend/Db/Statement/Pdo/Ibm.php" />
@@ -1269,6 +1274,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Mail/Storage/Imap.php" afterPath="$PROJECT_DIR$/library/Zend/Mail/Storage/Imap.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/Nirvanix/Namespace/Imfs.php" afterPath="$PROJECT_DIR$/library/Zend/Service/Nirvanix/Namespace/Imfs.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Markup/Renderer/Html/Img.php" afterPath="$PROJECT_DIR$/library/Zend/Markup/Renderer/Html/Img.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/ImportController.php" afterPath="$PROJECT_DIR$/application/controllers/ImportController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/application/controllers/ImportControllerTest.php" afterPath="$PROJECT_DIR$/tests/application/controllers/ImportControllerTest.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Pdf/Action/ImportData.php" afterPath="$PROJECT_DIR$/library/Zend/Pdf/Action/ImportData.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Validate/InArray.php" afterPath="$PROJECT_DIR$/library/Zend/Validate/InArray.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Gdata/YouTube/InboxEntry.php" afterPath="$PROJECT_DIR$/library/Zend/Gdata/YouTube/InboxEntry.php" />
@@ -1685,6 +1692,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Dojo/Form/Element/NumberTextBox.php" afterPath="$PROJECT_DIR$/library/Zend/Dojo/Form/Element/NumberTextBox.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Dojo/View/Helper/NumberTextBox.php" afterPath="$PROJECT_DIR$/library/Zend/Dojo/View/Helper/NumberTextBox.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Pdf/Element/Numeric.php" afterPath="$PROJECT_DIR$/library/Zend/Pdf/Element/Numeric.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/Wsdl/ODGBaseUserService.wsdl" afterPath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/Wsdl/ODGBaseUserService.wsdl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/Wsdl/ODGBaseUserService.xsd" afterPath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/Wsdl/ODGBaseUserService.xsd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Oauth.php" afterPath="$PROJECT_DIR$/library/Zend/Oauth.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Pdf/Element/Object.php" afterPath="$PROJECT_DIR$/library/Zend/Pdf/Element/Object.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/Rackspace/Files/Object.php" afterPath="$PROJECT_DIR$/library/Zend/Service/Rackspace/Files/Object.php" />
@@ -1770,8 +1779,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Serializer/Adapter/PhpSerialize.php" afterPath="$PROJECT_DIR$/library/Zend/Serializer/Adapter/PhpSerialize.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Tool/Framework/System/Provider/Phpinfo.php" afterPath="$PROJECT_DIR$/library/Zend/Tool/Framework/System/Provider/Phpinfo.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Search/Lucene/Search/Query/Phrase.php" afterPath="$PROJECT_DIR$/library/Zend/Search/Lucene/Search/Query/Phrase.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Search/Lucene/Search/QueryEntry/Phrase.php" afterPath="$PROJECT_DIR$/library/Zend/Search/Lucene/Search/QueryEntry/Phrase.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Search/Lucene/Search/Query/Preprocessing/Phrase.php" afterPath="$PROJECT_DIR$/library/Zend/Search/Lucene/Search/Query/Preprocessing/Phrase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Search/Lucene/Search/QueryEntry/Phrase.php" afterPath="$PROJECT_DIR$/library/Zend/Search/Lucene/Search/QueryEntry/Phrase.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Search/Lucene/Search/Weight/Phrase.php" afterPath="$PROJECT_DIR$/library/Zend/Search/Lucene/Search/Weight/Phrase.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Tool/Project/Context/Content/Engine/Phtml.php" afterPath="$PROJECT_DIR$/library/Zend/Tool/Project/Context/Content/Engine/Phtml.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/View/Helper/Placeholder.php" afterPath="$PROJECT_DIR$/library/Zend/View/Helper/Placeholder.php" />
@@ -2086,6 +2095,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/Rackspace/Servers.php" afterPath="$PROJECT_DIR$/library/Zend/Service/Rackspace/Servers.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Json/Server/Smd/Service.php" afterPath="$PROJECT_DIR$/library/Zend/Json/Server/Smd/Service.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/WindowsAzure/CommandLine/Service.php" afterPath="$PROJECT_DIR$/library/Zend/Service/WindowsAzure/CommandLine/Service.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/WindowsAzure/CommandLine/Scaffolders/DefaultScaffolder/resources/ServiceConfiguration.cscfg" afterPath="$PROJECT_DIR$/library/Zend/Service/WindowsAzure/CommandLine/Scaffolders/DefaultScaffolder/resources/ServiceConfiguration.cscfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/WindowsAzure/CommandLine/Scaffolders/DefaultScaffolder/resources/ServiceDefinition.csdef" afterPath="$PROJECT_DIR$/library/Zend/Service/WindowsAzure/CommandLine/Scaffolders/DefaultScaffolder/resources/ServiceDefinition.csdef" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/SqlAzure/Management/ServiceEntityAbstract.php" afterPath="$PROJECT_DIR$/library/Zend/Service/SqlAzure/Management/ServiceEntityAbstract.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/WindowsAzure/Management/ServiceEntityAbstract.php" afterPath="$PROJECT_DIR$/library/Zend/Service/WindowsAzure/Management/ServiceEntityAbstract.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Gdata/Gapps/ServiceException.php" afterPath="$PROJECT_DIR$/library/Zend/Gdata/Gapps/ServiceException.php" />
@@ -2102,6 +2113,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/Ebay/Finding/Category/Histogram/Set.php" afterPath="$PROJECT_DIR$/library/Zend/Service/Ebay/Finding/Category/Histogram/Set.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/Ebay/Finding/Error/Data/Set.php" afterPath="$PROJECT_DIR$/library/Zend/Service/Ebay/Finding/Error/Data/Set.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/Ebay/Finding/Search/Item/Set.php" afterPath="$PROJECT_DIR$/library/Zend/Service/Ebay/Finding/Search/Item/Set.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Http/Header/SetCookie.php" afterPath="$PROJECT_DIR$/library/Zend/Http/Header/SetCookie.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Pdf/Action/SetOCGState.php" afterPath="$PROJECT_DIR$/library/Zend/Pdf/Action/SetOCGState.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Cache/Backend/ZendServer/ShMem.php" afterPath="$PROJECT_DIR$/library/Zend/Cache/Backend/ZendServer/ShMem.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Validate/File/Sha1.php" afterPath="$PROJECT_DIR$/library/Zend/Validate/File/Sha1.php" />
@@ -2139,7 +2151,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Dojo/View/Helper/Slider.php" afterPath="$PROJECT_DIR$/library/Zend/Dojo/View/Helper/Slider.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Paginator/ScrollingStyle/Sliding.php" afterPath="$PROJECT_DIR$/library/Zend/Paginator/ScrollingStyle/Sliding.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Json/Server/Smd.php" afterPath="$PROJECT_DIR$/library/Zend/Json/Server/Smd.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/Wsdl/SmsService.wsdl" afterPath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/Wsdl/SmsService.wsdl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/SmsValidation.php" afterPath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/SmsValidation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/Wsdl/SmsValidationUserService.wsdl" afterPath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/Wsdl/SmsValidationUserService.wsdl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Mail/Protocol/Smtp.php" afterPath="$PROJECT_DIR$/library/Zend/Mail/Protocol/Smtp.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Mail/Transport/Smtp.php" afterPath="$PROJECT_DIR$/library/Zend/Mail/Transport/Smtp.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Gdata/Gbase/SnippetEntry.php" afterPath="$PROJECT_DIR$/library/Zend/Gdata/Gbase/SnippetEntry.php" />
@@ -2273,8 +2287,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Http/UserAgent/Features/Adapter/TeraWurfl.php" afterPath="$PROJECT_DIR$/library/Zend/Http/UserAgent/Features/Adapter/TeraWurfl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Search/Lucene/Index/Term.php" afterPath="$PROJECT_DIR$/library/Zend/Search/Lucene/Index/Term.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Search/Lucene/Search/Query/Term.php" afterPath="$PROJECT_DIR$/library/Zend/Search/Lucene/Search/Query/Term.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Search/Lucene/Search/QueryEntry/Term.php" afterPath="$PROJECT_DIR$/library/Zend/Search/Lucene/Search/QueryEntry/Term.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Search/Lucene/Search/Query/Preprocessing/Term.php" afterPath="$PROJECT_DIR$/library/Zend/Search/Lucene/Search/Query/Preprocessing/Term.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Search/Lucene/Search/QueryEntry/Term.php" afterPath="$PROJECT_DIR$/library/Zend/Search/Lucene/Search/QueryEntry/Term.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Search/Lucene/Search/Weight/Term.php" afterPath="$PROJECT_DIR$/library/Zend/Search/Lucene/Search/Weight/Term.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Search/Lucene/Index/TermInfo.php" afterPath="$PROJECT_DIR$/library/Zend/Search/Lucene/Index/TermInfo.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Search/Lucene/TermStreamsPriorityQueue.php" afterPath="$PROJECT_DIR$/library/Zend/Search/Lucene/TermStreamsPriorityQueue.php" />
@@ -2336,6 +2350,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Markup/Renderer/TokenConverterInterface.php" afterPath="$PROJECT_DIR$/library/Zend/Markup/Renderer/TokenConverterInterface.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Search/Lucene/Analysis/TokenFilter.php" afterPath="$PROJECT_DIR$/library/Zend/Search/Lucene/Analysis/TokenFilter.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Markup/TokenList.php" afterPath="$PROJECT_DIR$/library/Zend/Markup/TokenList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/Wsdl/TokenService.wsdl" afterPath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/Wsdl/TokenService.wsdl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Tool/Framework/Metadata/Tool.php" afterPath="$PROJECT_DIR$/library/Zend/Tool/Framework/Metadata/Tool.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Form/Decorator/Tooltip.php" afterPath="$PROJECT_DIR$/library/Zend/Form/Decorator/Tooltip.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Tool/Project/Context/System/TopLevelRestrictable.php" afterPath="$PROJECT_DIR$/library/Zend/Tool/Project/Context/System/TopLevelRestrictable.php" />
@@ -2452,6 +2467,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Gdata/Extension/Visibility.php" afterPath="$PROJECT_DIR$/library/Zend/Gdata/Extension/Visibility.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/Request/VoiceButler/VoiceButlerAbstract.php" afterPath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/Request/VoiceButler/VoiceButlerAbstract.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/Response/VoiceButler/VoiceButlerAbstract.php" afterPath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/Response/VoiceButler/VoiceButlerAbstract.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/Wsdl/VoiceButlerService.wsdl" afterPath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/Wsdl/VoiceButlerService.wsdl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/Wsdl/VoiceButlerService.xsd" afterPath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/Wsdl/VoiceButlerService.xsd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/VoiceCall.php" afterPath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/VoiceCall.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Measure/Volume.php" afterPath="$PROJECT_DIR$/library/Zend/Measure/Volume.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Measure/Cooking/Volume.php" afterPath="$PROJECT_DIR$/library/Zend/Measure/Cooking/Volume.php" />
@@ -2460,6 +2477,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Gdata/Books/VolumeFeed.php" afterPath="$PROJECT_DIR$/library/Zend/Gdata/Books/VolumeFeed.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Gdata/Books/VolumeQuery.php" afterPath="$PROJECT_DIR$/library/Zend/Gdata/Books/VolumeQuery.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Serializer/Adapter/Wddx.php" afterPath="$PROJECT_DIR$/library/Zend/Serializer/Adapter/Wddx.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/WindowsAzure/CommandLine/Scaffolders/DefaultScaffolder/resources/PhpOnAzure.Web/Web.config" afterPath="$PROJECT_DIR$/library/Zend/Service/WindowsAzure/CommandLine/Scaffolders/DefaultScaffolder/resources/PhpOnAzure.Web/Web.config" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Gdata/Calendar/Extension/WebContent.php" afterPath="$PROJECT_DIR$/library/Zend/Gdata/Calendar/Extension/WebContent.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/Yahoo/WebResult.php" afterPath="$PROJECT_DIR$/library/Zend/Service/Yahoo/WebResult.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/Yahoo/WebResultSet.php" afterPath="$PROJECT_DIR$/library/Zend/Service/Yahoo/WebResultSet.php" />
@@ -2484,6 +2502,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Form/Decorator/Captcha/Word.php" afterPath="$PROJECT_DIR$/library/Zend/Form/Decorator/Captcha/Word.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Validate/File/WordCount.php" afterPath="$PROJECT_DIR$/library/Zend/Validate/File/WordCount.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/DbTable/Words.php" afterPath="$PROJECT_DIR$/application/models/DbTable/Words.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/DbTable/Wordset.php" afterPath="$PROJECT_DIR$/application/models/DbTable/Wordset.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Gdata/Spreadsheets/WorksheetEntry.php" afterPath="$PROJECT_DIR$/library/Zend/Gdata/Spreadsheets/WorksheetEntry.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Gdata/Spreadsheets/WorksheetFeed.php" afterPath="$PROJECT_DIR$/library/Zend/Gdata/Spreadsheets/WorksheetFeed.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Config/Writer.php" afterPath="$PROJECT_DIR$/library/Zend/Config/Writer.php" />
@@ -2567,12 +2586,15 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/bootstrap.php" afterPath="$PROJECT_DIR$/tests/bootstrap.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/bs.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/bs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/bs_BA.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/bs_BA.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/WindowsAzure/CommandLine/Scaffolders/DefaultScaffolder/build.bat" afterPath="$PROJECT_DIR$/library/Zend/Service/WindowsAzure/CommandLine/Scaffolders/DefaultScaffolder/build.bat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/byn.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/byn.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/byn_ER.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/byn_ER.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/ca.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/ca.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/ca_ES.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/ca_ES.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/cch.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/cch.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/cch_NG.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/cch_NG.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/Wsdl/ccsPort.wsdl" afterPath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/Wsdl/ccsPort.wsdl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/Wsdl/ccsPort.xsd" afterPath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/Wsdl/ccsPort.xsd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/characters.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/characters.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/cop.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/cop.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/cs.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/cs.xml" />
@@ -2589,6 +2611,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/de_LI.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/de_LI.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/de_LU.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/de_LU.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/scripts/api/delete.phtml" afterPath="$PROJECT_DIR$/application/views/scripts/api/delete.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/WindowsAzure/CommandLine/Scaffolders/DefaultScaffolder/resources/PhpOnAzure.Web/diagnostics.wadcfg" afterPath="$PROJECT_DIR$/library/Zend/Service/WindowsAzure/CommandLine/Scaffolders/DefaultScaffolder/resources/PhpOnAzure.Web/diagnostics.wadcfg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/dv.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/dv.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/dv_MV.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/dv_MV.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/dz.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/dz.xml" />
@@ -2632,6 +2655,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/en_VI.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/en_VI.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/en_ZA.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/en_ZA.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/en_ZW.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/en_ZW.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/eo.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/eo.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/scripts/error/error.phtml" afterPath="$PROJECT_DIR$/application/views/scripts/error/error.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/es.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/es.xml" />
@@ -2666,6 +2690,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/fi_FI.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/fi_FI.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/fil.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/fil.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/fil_PH.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/fil_PH.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/fiszki_webAPI.iml" afterPath="$PROJECT_DIR$/.idea/fiszki_webAPI.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/fo.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/fo.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/fo_FO.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/fo_FO.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/fr.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/fr.xml" />
@@ -2722,6 +2747,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/ia.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/ia.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/id.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/id.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/id_ID.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/id_ID.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/csv/idioms_1.csv" afterPath="$PROJECT_DIR$/public/csv/idioms_1.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/ig.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/ig.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/ig_NG.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/ig_NG.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/ii.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/ii.xml" />
@@ -2730,6 +2756,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/WindowsAzure/CommandLine/Scaffolders/DefaultScaffolder/index.php" afterPath="$PROJECT_DIR$/library/Zend/Service/WindowsAzure/CommandLine/Scaffolders/DefaultScaffolder/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/scripts/api/index.phtml" afterPath="$PROJECT_DIR$/application/views/scripts/api/index.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/scripts/import/index.phtml" afterPath="$PROJECT_DIR$/application/views/scripts/import/index.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/scripts/index/index.phtml" afterPath="$PROJECT_DIR$/application/views/scripts/index/index.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/is.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/is.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/is_IS.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/is_IS.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/it.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/it.xml" />
@@ -2781,17 +2809,21 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/kw_GB.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/kw_GB.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/ky.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/ky.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/ky_KG.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/ky_KG.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/WindowsAzure/CommandLine/Scaffolders/DefaultScaffolder/resources/PhpOnAzure.Web/resources/WebPICmdLine/license.rtf" afterPath="$PROJECT_DIR$/library/Zend/Service/WindowsAzure/CommandLine/Scaffolders/DefaultScaffolder/resources/PhpOnAzure.Web/resources/WebPICmdLine/license.rtf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/likelySubtags.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/likelySubtags.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/ln.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/ln.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/ln_CD.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/ln_CD.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/ln_CG.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/ln_CG.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/lo.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/lo.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/lo_LA.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/lo_LA.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/Wsdl/localsearch.wsdl" afterPath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/Wsdl/localsearch.wsdl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/Wsdl/localsearch.xsd" afterPath="$PROJECT_DIR$/library/Zend/Service/DeveloperGarden/Wsdl/localsearch.xsd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/lt.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/lt.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/lt_LT.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/lt_LT.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/lv.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/lv.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/lv_LV.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/lv_LV.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/metazoneInfo.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/metazoneInfo.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/mk.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/mk.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/mk_MK.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/mk_MK.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/ml.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/ml.xml" />
@@ -2804,6 +2836,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/mn_Mong.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/mn_Mong.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/mn_Mong_CN.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/mn_Mong_CN.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/mo.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/mo.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/mr.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/mr.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/mr_IN.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/mr_IN.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/ms.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/ms.xml" />
@@ -2853,6 +2886,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/pl_PL.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/pl_PL.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/scripts/api/post.phtml" afterPath="$PROJECT_DIR$/application/views/scripts/api/post.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/postalCodeData.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/postalCodeData.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Queue/Adapter/Db/postgresql.sql" afterPath="$PROJECT_DIR$/library/Zend/Queue/Adapter/Db/postgresql.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/ps.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/ps.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/ps_AF.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/ps_AF.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/pt.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/pt.xml" />
@@ -2871,6 +2905,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/rw_RW.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/rw_RW.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/sa.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/sa.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/sa_IN.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/sa_IN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/se.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/se.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/se_FI.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/se_FI.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/se_NO.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/se_NO.xml" />
@@ -2893,6 +2928,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/so_SO.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/so_SO.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/sq.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/sq.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/sq_AL.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/sq_AL.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Queue/Adapter/Db/sqlsrv.sql" afterPath="$PROJECT_DIR$/library/Zend/Queue/Adapter/Db/sqlsrv.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/sr.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/sr.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/sr_BA.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/sr_BA.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/sr_CS.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/sr_CS.xml" />
@@ -2973,6 +3009,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/uz_Latn.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/uz_Latn.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/uz_Latn_UZ.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/uz_Latn_UZ.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/uz_UZ.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/uz_UZ.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/ve.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/ve.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/ve_ZA.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/ve_ZA.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/vi.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/vi.xml" />
@@ -2983,10 +3020,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/wo_Latn.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/wo_Latn.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/wo_Latn_SN.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/wo_Latn_SN.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/wo_SN.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/wo_SN.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/xh.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/xh.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/xh_ZA.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/xh_ZA.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/yo.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/yo.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/yo_NG.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/yo_NG.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Text/Figlet/zend-framework.flf" afterPath="$PROJECT_DIR$/library/Zend/Text/Figlet/zend-framework.flf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/zh.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/zh.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/zh_CN.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/zh_CN.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/Zend/Locale/Data/zh_HK.xml" afterPath="$PROJECT_DIR$/library/Zend/Locale/Data/zh_HK.xml" />
@@ -3007,14 +3046,18 @@
     </list>
     <ignored path="fiszki_webAPI.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375118468200" ignored="false" />
+    <file path="/Dummy.txt" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375129680940" ignored="false" />
     <file path="/Wordset.php" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375116633730" ignored="false" />
-    <file path="/ImportController.php" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375121424811" ignored="false" />
+    <file path="/ImportController.php" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375132563145" ignored="false" />
     <file path="/Words.php" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375120348871" ignored="false" />
     <file path="/WordHasWordset" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375120466750" ignored="false" />
     <file path="/WordHasWordset.php" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375120666752" ignored="false" />
-    <file path="/a.dummy" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375120805217" ignored="false" />
-    <file path="/Wordhaswordset.php" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375121438766" ignored="false" />
+    <file path="/a.dummy" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375129988515" ignored="false" />
+    <file path="/Wordhaswordset.php" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375133174827" ignored="false" />
+    <file path="/application.ini" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375127836092" ignored="false" />
+    <file path="/Wordhastranslation.php" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375133158907" ignored="false" />
+    <file path="/Topic.php" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375133472268" ignored="false" />
+    <file path="/ApiController.php" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375134137301" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -3034,10 +3077,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ImportController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/ImportController.php">
+      <file leaf-file-name="Wordhaswordset.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/DbTable/Wordhaswordset.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="40" selection-start="2448" selection-end="2460" vertical-scroll-proportion="-24.76923">
+            <state line="18" column="60" selection-start="546" selection-end="546" vertical-scroll-proportion="-11.25">
               <folding />
             </state>
           </provider>
@@ -3046,35 +3089,46 @@
       <file leaf-file-name="Words.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/DbTable/Words.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="1188" selection-end="1188" vertical-scroll-proportion="-25.5">
+            <state line="45" column="67" selection-start="1284" selection-end="1343" vertical-scroll-proportion="-28.125">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Wordhaswordset.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/models/DbTable/Wordhaswordset.php">
+      <file leaf-file-name="ImportController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/ImportController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="56" selection-start="600" selection-end="600" vertical-scroll-proportion="0.40846682">
+            <state line="39" column="16" selection-start="1121" selection-end="1121" vertical-scroll-proportion="-0.45833334">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Wordset.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/DbTable/Wordset.php">
+      <file leaf-file-name="ApiController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controllers/ApiController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="98" selection-start="578" selection-end="668" vertical-scroll-proportion="-17.653847">
+            <state line="57" column="10" selection-start="1683" selection-end="1683" vertical-scroll-proportion="0.65909094">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Language.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/DbTable/Language.php">
+      <file leaf-file-name="Topic.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/DbTable/Topic.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="87" selection-start="867" selection-end="946" vertical-scroll-proportion="0.0">
+            <state line="24" column="0" selection-start="731" selection-end="731" vertical-scroll-proportion="-15.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Wordhastranslation.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/DbTable/Wordhastranslation.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="19" selection-start="686" selection-end="686" vertical-scroll-proportion="-16.25">
+              <folding>
+                <element signature="e#6#167#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -3099,19 +3153,23 @@
       <list>
         <option value="$PROJECT_DIR$/application/models/DbTable/Wordset.php" />
         <option value="$PROJECT_DIR$/application/models/DbTable/WordHasWordset" />
-        <option value="$PROJECT_DIR$/application/models/DbTable/WordHasWordset.php" />
         <option value="$PROJECT_DIR$/application/models/DbTable/Words.php" />
-        <option value="$PROJECT_DIR$/application/controllers/ImportController.php" />
+        <option value="$PROJECT_DIR$/application/models/DbTable/Language.php" />
+        <option value="$PROJECT_DIR$/application/config/application.ini" />
+        <option value="$PROJECT_DIR$/application/models/DbTable/WordHasWordset.php" />
+        <option value="$PROJECT_DIR$/application/models/DbTable/Wordhastranslation.php" />
         <option value="$PROJECT_DIR$/application/models/DbTable/Wordhaswordset.php" />
+        <option value="$PROJECT_DIR$/application/models/DbTable/Topic.php" />
+        <option value="$PROJECT_DIR$/application/controllers/ImportController.php" />
+        <option value="$PROJECT_DIR$/application/controllers/ApiController.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1358" />
-    <option name="y" value="-320" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="y" value="24" />
+    <option name="width" value="1920" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -3164,7 +3222,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -3180,42 +3237,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="fiszki_webAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fiszki_webAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fiszki_webAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fiszki_webAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fiszki_webAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -3287,26 +3308,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fiszki_webAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fiszki_webAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="configs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3343,24 +3347,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-320" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="24" width="1920" height="1032" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25773746" sideWeight="0.6703786" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26976496" sideWeight="0.6704289" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295711" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -3430,44 +3434,12 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/application/models/DbTable/Wordset.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="94" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="27" column="94" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/DbTable/Language.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="87" selection-start="867" selection-end="946" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/ImportController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/DbTable/Words.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="44" selection-start="1173" selection-end="1173" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/DbTable/Wordset.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="94" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/DbTable/Language.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="87" selection-start="867" selection-end="946" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="40" column="87" selection-start="867" selection-end="946" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/ImportController.php">
@@ -3479,60 +3451,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/DbTable/Wordset.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="21" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="8" column="21" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/configs/application.ini">
+    <entry file="file://$PROJECT_DIR$/application/models/DbTable/Wordset.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" />
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
+        <state line="34" column="0" selection-start="684" selection-end="684" vertical-scroll-proportion="0.6100478" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/.htaccess">
+    <entry file="file://$PROJECT_DIR$/application/models/DbTable/Language.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="36" selection-start="181" selection-end="181" vertical-scroll-proportion="0.09747706" />
+        <state line="7" column="36" selection-start="154" selection-end="154" vertical-scroll-proportion="0.12559809" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="2" selection-start="687" selection-end="702" vertical-scroll-proportion="0.41267943" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/application/controllers/ImportControllerTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.14539" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/DbTable/Language.php">
+    <entry file="file://$PROJECT_DIR$/public/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="87" selection-start="867" selection-end="946" vertical-scroll-proportion="0.0">
+        <state line="5" column="36" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0872093">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/DbTable/Wordset.php">
+    <entry file="file://$PROJECT_DIR$/application/views/scripts/import/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="98" selection-start="578" selection-end="668" vertical-scroll-proportion="-17.653847">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/DbTable/Words.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1188" selection-end="1188" vertical-scroll-proportion="-25.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/ImportController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="40" selection-start="2448" selection-end="2460" vertical-scroll-proportion="-24.76923">
+        <state line="45" column="67" selection-start="1284" selection-end="1343" vertical-scroll-proportion="-28.125">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/DbTable/Wordhaswordset.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="56" selection-start="600" selection-end="600" vertical-scroll-proportion="0.40846682">
+        <state line="18" column="60" selection-start="546" selection-end="546" vertical-scroll-proportion="-11.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/DbTable/Topic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="731" selection-end="731" vertical-scroll-proportion="-15.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/DbTable/Wordhastranslation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="19" selection-start="686" selection-end="686" vertical-scroll-proportion="-16.25">
+          <folding>
+            <element signature="e#6#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/ImportController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="16" selection-start="1121" selection-end="1121" vertical-scroll-proportion="-0.45833334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/ApiController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="10" selection-start="1683" selection-end="1683" vertical-scroll-proportion="0.65909094">
           <folding />
         </state>
       </provider>

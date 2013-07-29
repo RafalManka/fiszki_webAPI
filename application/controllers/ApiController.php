@@ -30,6 +30,7 @@ class ApiController extends Zend_Controller_Action
 
 		$wordsInfo = array();
 		$count = -1;
+                $tempTitle='';
 		foreach ($words as $word){
 			$wordsinfo['language_id'] = $word['language_id'];
 			$wordsinfo['language'] = $word['language'];
@@ -38,13 +39,13 @@ class ApiController extends Zend_Controller_Action
 
 			if($tempTitle==$word['word']){		
 				$counter++;		
-				$wordsinfo['words'][ $count ]['translation'][ $counter ] = $word['translation'];				
+				$wordsinfo['words'][ $count ]['translation'][ $counter ] = urldecode($word['translation']);
 			} else {
 				$tempTitle=$word['word'];
 				$counter=0;				
 				$count++;
-				$wordsinfo['words'][ $count ]['word'] = $word['word']; 
-				$wordsinfo['words'][ $count ]['translation'][ $counter ] = $word['translation'];
+				$wordsinfo['words'][ $count ]['word'] = urldecode($word['word']);
+				$wordsinfo['words'][ $count ]['translation'][ $counter ] = urldecode($word['translation']);
 
 			}				
 		}
@@ -54,6 +55,7 @@ class ApiController extends Zend_Controller_Action
                 break;
         }
 
+        //if(!empty($wordsInfo))
     	echo Zend_Json::encode($wordsinfo);
     
 	}

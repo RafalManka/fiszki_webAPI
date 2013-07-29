@@ -21,7 +21,8 @@ class Application_Model_DbTable_Topic extends Zend_Db_Table_Abstract
 		->setIntegrityCheck(false)
 		->group('wordset.wordset_id')
 		->where('language.language_id = '.$language);
-//echo $query;
+
+
 		$row = $this->fetchAll($query);  	
 	
 		if (!$row) {

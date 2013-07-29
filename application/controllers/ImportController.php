@@ -34,17 +34,17 @@ class ImportController extends Zend_Controller_Action
             $languageId = $model->insertLanguage($language,$language_long);
          }
 
-         echo 'language: '.$language_long.' (id = '.$languageId.').<br>';
+         //echo 'language: '.$language_long.' (id = '.$languageId.').<br>';
 
          $model = new Application_Model_DbTable_Wordset();
          $wordsetId = $model->fetchWordset($wordset_name);
             if($wordsetId==null){
                 $wordsetId = $model->insertWordSet($wordset_name,$languageId);
             } else {
-                //return;
+                return;
             }
 
-        echo 'wordset: '.$wordset_name.' (Id = '.$wordsetId.').<br>';
+        //echo 'wordset: '.$wordset_name.' (Id = '.$wordsetId.').<br>';
 
         $model = new Application_Model_DbTable_Words();
         foreach($words as $word){
@@ -62,14 +62,21 @@ class ImportController extends Zend_Controller_Action
             }
             //echo 'translation: '.$word['translation'].' (id = '.$translationId['word_id'].').<br>';
 
-            $wht_model = new Application_Model_DbTable_Wordhaswordset();
+            $wht_model = new Application_Model_DbTable_Wordhastranslation();
             $reltion = $wht_model->isRelationPresent($wordId['word_id'], $translationId['word_id']);
+
             if($reltion==true){
-                echo 'relation exists<br>';
+                //echo 'word relation exists<br>';
             } else{
                 $wht_model->saveRelation($wordId['word_id'], $translationId['word_id']);
-                echo 'relation saved<br>';
+                //echo 'word relation saved<br>';
             }
+
+
+            $whw_model = new Application_Model_DbTable_Wordhaswordset();
+            $reltion = $whw_model->isRelationPresent($wordId['word_id'], $wordsetId);
+
+
         }
 
 
