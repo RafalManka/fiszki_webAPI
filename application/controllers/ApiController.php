@@ -17,25 +17,46 @@ class ApiController extends Zend_Controller_Action
         switch ($this->getRequest()->getParam('id')) {
             case 'fetchLanguages':
                 $model = new Application_Model_DbTable_Language();
-                $words = $model->fetchLanguages();
+                $wordsinfo = $model->fetchLanguages();
                 break;
             case 'fetchTopics':
                 $model = new Application_Model_DbTable_Topic();
-                $words = $model->fetchTopics($_GET['language']);
+                $wordsinfo = $model->fetchTopics($_GET['language']);
                 break;
             case 'fetchWords':
-             $model = new Application_Model_DbTable_Words();
+
+             	$model = new Application_Model_DbTable_Words();
                 $words = $model->fetchWords($_GET['language'],$_GET['topic']);
+
+		$wordsInfo = array();
+		$count = -1;
+		foreach ($words as $word){
+			$wordsinfo['language_id'] = $word['language_id'];
+			$wordsinfo['language'] = $word['language'];
+			$wordsinfo['wordset_id'] = $word['wordset_id'];
+			$wordsinfo['wordset'] = $word['wordset'];
+
+			if($tempTitle==$word['word']){		
+				$counter++;		
+				$wordsinfo['words'][ $count ]['translation'][ $counter ] = $word['translation'];				
+			} else {
+				$tempTitle=$word['word'];
+				$counter=0;				
+				$count++;
+				$wordsinfo['words'][ $count ]['word'] = $word['word']; 
+				$wordsinfo['words'][ $count ]['translation'][ $counter ] = $word['translation'];
+
+			}				
+		}
                 break;
             default:
                 echo 'action was not specified';
                 break;
         }
 
-    	echo Zend_Json::encode($words);
+    	echo Zend_Json::encode($wordsinfo);
     
-
-}
+	}
 
 }
 
