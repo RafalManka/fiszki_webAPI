@@ -10,7 +10,25 @@ class IndexController extends Zend_Controller_Action
 
     public function indexAction()
     {
-        // action body
+        $forma = new Application_Form_UploadForm();
+        $this->view->form = $forma;
+
+        $req = $this->getRequest();
+        if($this->getRequest()->isPost())
+        {
+            if($forma->isValid($req->getPost()))
+            {
+                if(!$forma->extract->receive())
+                {
+                    $this->view->msg = 'upload error';
+                } else {
+                    $this->redirect('/import');
+                }
+
+
+            }
+        }
+
     }
 
 

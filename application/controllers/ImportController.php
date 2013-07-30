@@ -11,6 +11,13 @@ class ImportController extends Zend_Controller_Action
     public function indexAction()
     {
 
+        echo 'hello there!';
+
+    }
+
+    public function saveAction()
+    {
+
         $language = 'sp';
         $language_long = 'Espanol';
         $wordset_name = 'idiomy #1';
@@ -28,21 +35,21 @@ class ImportController extends Zend_Controller_Action
             $counter++;
         }
 
-         $model = new Application_Model_DbTable_Language();
-         $languageId = $model->fetchLanguage($language);
-         if($languageId==null){
+        $model = new Application_Model_DbTable_Language();
+        $languageId = $model->fetchLanguage($language);
+        if($languageId==null){
             $languageId = $model->insertLanguage($language,$language_long);
-         }
+        }
 
-         //echo 'language: '.$language_long.' (id = '.$languageId.').<br>';
+        //echo 'language: '.$language_long.' (id = '.$languageId.').<br>';
 
-         $model = new Application_Model_DbTable_Wordset();
-         $wordsetId = $model->fetchWordset($wordset_name);
-            if($wordsetId==null){
-                $wordsetId = $model->insertWordSet($wordset_name,$languageId);
-            } else {
-                return;
-            }
+        $model = new Application_Model_DbTable_Wordset();
+        $wordsetId = $model->fetchWordset($wordset_name);
+        if($wordsetId==null){
+            $wordsetId = $model->insertWordSet($wordset_name,$languageId);
+        } else {
+            return;
+        }
 
         //echo 'wordset: '.$wordset_name.' (Id = '.$wordsetId.').<br>';
 
@@ -76,13 +83,9 @@ class ImportController extends Zend_Controller_Action
             $whw_model = new Application_Model_DbTable_Wordhaswordset();
             $reltion = $whw_model->isRelationPresent($wordId['word_id'], $wordsetId);
 
-
         }
 
 
-
     }
-
-
 }
 
