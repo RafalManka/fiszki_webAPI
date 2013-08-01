@@ -22,6 +22,7 @@ class Application_Form_EditDictionary extends Zend_Form {
     }
 
     public function setDynamicForm($formValues){
+
         foreach($formValues as $attribes){
 
             if($attribes['name']!='lang_long'

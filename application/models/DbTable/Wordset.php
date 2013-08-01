@@ -6,7 +6,7 @@ class Application_Model_DbTable_Wordset extends Zend_Db_Table_Abstract
     protected $_name = 'wordset';
 	 
 
-	 public function fetchWordset($wordset){
+	 public function fetchOrInsertWordset($wordset, $language_id){
 	 	$query = $this
 		->select()
 		->from(array('w' => 'wordset'), array(
@@ -17,16 +17,16 @@ class Application_Model_DbTable_Wordset extends Zend_Db_Table_Abstract
 		->where('w.wordset_title = \''.$wordset."'");
 
          $row = $this->fetchRow($query);
-
-         return $row['wordset_id'];
+        if(!$row){
+            return $this->insertWordset($wordset, $language_id);
+        } else {
+            return $row['wordset_id'];
+        }
 	 }
     
-    public function insertWordset($wordset_name, $language_id)
+    public function insertWordset($wordset, $language_id)
     {
-
-
-        return $this->insert( array('wordset_title'=>$wordset_name,'language_id'=>$language_id) );
-
+        return $this->insert( array('wordset_title'=>$wordset,'language_id'=>$language_id) );
     }
 
    

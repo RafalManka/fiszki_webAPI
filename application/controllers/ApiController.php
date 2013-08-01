@@ -3,8 +3,21 @@
 class ApiController extends Zend_Controller_Action
 {
 
+    public function _initRoutes()
+    {
+
+        $front = Zend_Controller_Front::getInstance();
+
+        $router = $front->getRouter();
+
+        $restRoute = new Zend_Rest_Route($front);
+        $router->addRoute('default', $restRoute);
+
+    }
+
     public function init() {
-	
+
+
         $this->_helper->viewRenderer->setNoRender(true);
     }
 
@@ -38,7 +51,7 @@ class ApiController extends Zend_Controller_Action
 			$wordsinfo['wordset'] = $word['wordset'];
 
 			if($tempTitle==$word['word']){		
-				$counter++;		
+				$counter++;
 				$wordsinfo['words'][ $count ]['translation'][ $counter ] = urldecode($word['translation']);
 			} else {
 				$tempTitle=$word['word'];
@@ -55,7 +68,7 @@ class ApiController extends Zend_Controller_Action
                 break;
         }
 
-        //if(!empty($wordsInfo))
+        // if(!empty($wordsInfo))
     	echo Zend_Json::encode($wordsinfo);
     
 	}

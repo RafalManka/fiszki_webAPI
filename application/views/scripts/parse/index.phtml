@@ -1,11 +1,8 @@
 <?php
 
-
-$this->form->setAction($this->url());
+$this->form->setAction($this->url(array('controller'=>'parse','action'=>'post')));
 echo $this->form;
 
 
-echo '1231';
-echo $this->parsunio;
 
 
