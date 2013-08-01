@@ -1,30 +1,4 @@
-<?php if (!$this->errorMessage) : ?>
 
 
-    <form method="post" action="#">
-    <p>
-        Language:<input type="text" name="lanuage" value="<?php echo $this->escape($this->lanuage); ?>"><br>
-        Abbreviation:<input type="text" name="lang_short" value="<?php echo $this->escape($this->lang_short); ?>"><br>
-        Name of set:<input type="text" name="set_name" value="<?php echo $this->escape($this->set_name); ?>">
+    <?php echo $this->parsunio; ?>
 
-            <table>
-        <?php foreach($this->results as $row) : ?>
-
-                <?php echo $this->escape($row['word']); ?>
-                <?php echo $this->escape($row['translation']); ?></li>
-        <?php endforeach; ?>
-                </table>
-
-
-</form>
-
-
-<?php elseif ($this->errorMessage) : ?>
-    <p><?php echo $this->escape($this->errorMessage); ?></p>
-<?php endif; ?>
-<?php
-/*
- * Un-comment the following lines if you need some extra debugging information.
- */
-//Zend_Debug::dump($this->results);
-//Zend_Debug::dump($this);

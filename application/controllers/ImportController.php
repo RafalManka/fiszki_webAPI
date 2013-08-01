@@ -17,7 +17,7 @@ class ImportController extends Zend_Controller_Action
 
     public function saveAction()
     {
-
+        die('youre here');
         $language = 'sp';
         $language_long = 'Espanol';
         $wordset_name = 'idiomy #1';
