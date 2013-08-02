@@ -2,39 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4600c745-27b2-4575-b872-a5bff9fc0a4b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/forms/EditDictionary.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/css.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/js.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/layouts/scripts/layout.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/ApiController.php" afterPath="$PROJECT_DIR$/application/controllers/ApiController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/forms/EditDictionary.php" afterPath="$PROJECT_DIR$/application/forms/EditDictionary.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/ImportController.php" afterPath="$PROJECT_DIR$/application/controllers/ImportController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/IndexController.php" afterPath="$PROJECT_DIR$/application/controllers/IndexController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/ParseController.php" afterPath="$PROJECT_DIR$/application/controllers/ParseController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/forms/Westwing.php" afterPath="$PROJECT_DIR$/application/forms/Westwing.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/scripts/index/index.phtml" afterPath="$PROJECT_DIR$/application/views/scripts/index/index.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/scripts/parse/index.phtml" afterPath="$PROJECT_DIR$/application/views/scripts/parse/index.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/scripts/parse/result.phtml" afterPath="$PROJECT_DIR$/application/views/scripts/parse/result.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fiszki_webAPI.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375372743237" ignored="false" />
+    <file path="/Dummy.txt" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375458613597" ignored="false" />
     <file path="/Wordset.php" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375116633730" ignored="false" />
     <file path="/ImportController.php" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375379210432" ignored="false" />
     <file path="/Words.php" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375120348871" ignored="false" />
     <file path="/WordHasWordset" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375120466750" ignored="false" />
     <file path="/WordHasWordset.php" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375120666752" ignored="false" />
-    <file path="/a.dummy" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375129988515" ignored="false" />
+    <file path="/a.dummy" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375462763510" ignored="false" />
     <file path="/Wordhaswordset.php" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375133174827" ignored="false" />
     <file path="/application.ini" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375197896241" ignored="false" />
     <file path="/Wordhastranslation.php" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375133158907" ignored="false" />
     <file path="/Topic.php" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375133472268" ignored="false" />
     <file path="/ApiController.php" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375134137301" ignored="false" />
-    <file path="/index.phtml" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375376192832" ignored="false" />
+    <file path="/index.phtml" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375463646274" ignored="false" />
     <file path="/IndexController.php" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375202681810" ignored="false" />
     <file path="/UploadForm.php" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375202245235" ignored="false" />
-    <file path="/ParseController.php" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375381726093" ignored="false" />
+    <file path="/ParseController.php" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375466246931" ignored="false" />
     <file path="/testing.csv" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375204123825" ignored="false" />
     <file path="/post.phtml" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375204867033" ignored="false" />
-    <file path="/Westwing.php" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375205411368" ignored="false" />
+    <file path="/Westwing.php" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375462581471" ignored="false" />
     <file path="/result.phtml" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375376208069" ignored="false" />
-    <file path="/EditDictionary.php" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375382517064" ignored="false" />
-    <file path="/dummy.txt" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375375763095" ignored="false" />
+    <file path="/EditDictionary.php" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375468776752" ignored="false" />
+    <file path="/dummy.txt" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375459142503" ignored="false" />
+    <file path="/layout.phtml" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375458512063" ignored="false" />
+    <file path="/css.css" changelist="4600c745-27b2-4575-b872-a5bff9fc0a4b" time="1375467479905" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,55 +61,37 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="ParseController.php" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="ParseController.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/application/controllers/ParseController.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="37" column="67" selection-start="997" selection-end="997" vertical-scroll-proportion="0.29310346">
+                <state line="7" column="0" selection-start="148" selection-end="148" vertical-scroll-proportion="2.6923077">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="IndexController.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/application/controllers/IndexController.php">
+          <file leaf-file-name="EditDictionary.php" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/application/forms/EditDictionary.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="11" column="5" selection-start="190" selection-end="190" vertical-scroll-proportion="-7.1923075">
+                <state line="78" column="9" selection-start="2379" selection-end="2379" vertical-scroll-proportion="0.814994">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ErrorController.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/application/controllers/ErrorController.php">
+          <file leaf-file-name="layout.phtml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/application/layouts/scripts/layout.phtml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ApiController.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/application/controllers/ApiController.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="13" column="4" selection-start="208" selection-end="208" vertical-scroll-proportion="-2.6153846">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ImportController.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/application/controllers/ImportController.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="19" column="8" selection-start="277" selection-end="277" vertical-scroll-proportion="-12.423077">
+                <state line="9" column="36" selection-start="515" selection-end="515" vertical-scroll-proportion="-5.8846154">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="index.phtml" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/application/views/scripts/index/index.phtml">
+            <entry file="file://$PROJECT_DIR$/application/views/scripts/parse/index.phtml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="0" selection-start="102" selection-end="102" vertical-scroll-proportion="-1.9615384">
+                <state line="8" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="-5.230769">
                   <folding />
                 </state>
               </provider>
@@ -113,7 +100,16 @@
           <file leaf-file-name="Westwing.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/application/forms/Westwing.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="23" column="19" selection-start="741" selection-end="741" vertical-scroll-proportion="8.5">
+                <state line="19" column="28" selection-start="519" selection-end="519" vertical-scroll-proportion="-11.692307">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ImportController.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/application/controllers/ImportController.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="33" column="54" selection-start="752" selection-end="752" vertical-scroll-proportion="-17.653847">
                   <folding />
                 </state>
               </provider>
@@ -123,31 +119,22 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="result.phtml" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/application/views/scripts/parse/result.phtml">
+          <file leaf-file-name="css.css" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/public/css/css.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="-2.6153846">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="EditDictionary.php" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/application/forms/EditDictionary.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="46" column="19" selection-start="1395" selection-end="1395" vertical-scroll-proportion="0.5780142">
+                <state line="14" column="36" selection-start="694" selection-end="694" vertical-scroll-proportion="0.27642277">
                   <folding>
-                    <element signature="e#6#162#0" expanded="true" />
+                    <element signature="e#14165#14326#1" expanded="true" />
+                    <element signature="e#14812#14973#1" expanded="true" />
+                    <element signature="e#15057#15218#1" expanded="true" />
+                    <element signature="e#15496#15657#1" expanded="true" />
+                    <element signature="e#16917#17078#1" expanded="true" />
+                    <element signature="e#19119#19280#1" expanded="true" />
+                    <element signature="e#19848#20009#1" expanded="true" />
+                    <element signature="e#34226#34387#1" expanded="true" />
+                    <element signature="e#36671#41031#1" expanded="true" />
+                    <element signature="e#41048#47676#1" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.phtml" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/application/views/scripts/parse/index.phtml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="12" selection-start="78" selection-end="78" vertical-scroll-proportion="-4.576923">
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -175,21 +162,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/models/DbTable/Topic.php" />
-        <option value="$PROJECT_DIR$/application/controllers/ApiController.php" />
-        <option value="$PROJECT_DIR$/application/configs/application.ini" />
-        <option value="$PROJECT_DIR$/application/forms/UploadForm.php" />
-        <option value="$PROJECT_DIR$/application/views/scripts/import/index.phtml" />
-        <option value="$PROJECT_DIR$/application/views/scripts/parse/results.phtml" />
-        <option value="$PROJECT_DIR$/application/forms/Westwing.php" />
         <option value="$PROJECT_DIR$/application/views/scripts/parse/post.phtml" />
         <option value="$PROJECT_DIR$/public/tmp/testing.csv" />
         <option value="$PROJECT_DIR$/application/controllers/IndexController.php" />
-        <option value="$PROJECT_DIR$/application/views/scripts/index/index.phtml" />
-        <option value="$PROJECT_DIR$/application/views/scripts/parse/index.phtml" />
-        <option value="$PROJECT_DIR$/application/controllers/ImportController.php" />
         <option value="$PROJECT_DIR$/application/views/scripts/parse/result.phtml" />
+        <option value="$PROJECT_DIR$/application/layouts/scripts/index.phtml" />
+        <option value="$PROJECT_DIR$/application/configs/application.ini" />
+        <option value="$PROJECT_DIR$/application/controllers/ApiController.php" />
+        <option value="$PROJECT_DIR$/application/views/scripts/index/index.phtml" />
+        <option value="$PROJECT_DIR$/application/layouts/scripts/layout.phtml" />
+        <option value="$PROJECT_DIR$/public/js/js.js" />
+        <option value="$PROJECT_DIR$/application/views/scripts/parse/index.phtml" />
+        <option value="$PROJECT_DIR$/application/forms/Westwing.php" />
+        <option value="$PROJECT_DIR$/application/controllers/ImportController.php" />
         <option value="$PROJECT_DIR$/application/controllers/ParseController.php" />
+        <option value="$PROJECT_DIR$/public/css/css.css" />
         <option value="$PROJECT_DIR$/application/forms/EditDictionary.php" />
       </list>
     </option>
@@ -212,10 +199,19 @@
             <id>Code style issuesJavaScript</id>
           </State>
           <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
             <id>JavaScript</id>
           </State>
           <State>
             <id>Portability issues</id>
+          </State>
+          <State>
+            <id>XPath</id>
           </State>
         </expanded-state>
         <selected-state>
@@ -298,7 +294,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tmp" />
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fiszki_webAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fiszki_webAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -404,6 +418,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fiszki_webAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fiszki_webAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="forms" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -426,6 +462,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fiszki_webAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fiszki_webAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -434,23 +488,24 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.lastSelected" value="preferences.fileTypes" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\fiszki_webAPI\tests\application\controllers" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\fiszki_webAPI\application\views\scripts\img" />
+      <recent name="C:\xampp\htdocs\fiszki_webAPI\public\css" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
     <list size="0" />
@@ -473,12 +528,12 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850778" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.122732125" sideWeight="0.6714922" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13660619" sideWeight="0.6711111" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -550,114 +605,125 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="fiszki_webAPI" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="fiszki_webAPI" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/configs/application.ini">
+    <entry file="file://$PROJECT_DIR$/public/tmp/testing.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="38" selection-start="573" selection-end="573" vertical-scroll-proportion="0.27293578">
-          <folding />
-        </state>
+        <state line="2" column="20" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/Zend/Form.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/ErrorController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="557" column="20" selection-start="15253" selection-end="15253" vertical-scroll-proportion="0.3427896">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/Zend/Layout.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="192" column="27" selection-start="4954" selection-end="4954" vertical-scroll-proportion="0.3427896" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/Zend/Controller/Front.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="14" selection-start="1311" selection-end="1311" vertical-scroll-proportion="0.33333334" />
+        <state line="11" column="5" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="23" selection-start="485" selection-end="485" vertical-scroll-proportion="0.2612293">
-          <folding />
-        </state>
+        <state line="13" column="23" selection-start="485" selection-end="485" vertical-scroll-proportion="-8.5" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/tmp/testing.csv">
+    <entry file="file://$PROJECT_DIR$/application/configs/application.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="20" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="9" column="65" selection-start="447" selection-end="447" vertical-scroll-proportion="-6.12" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/forms/Westwing.php">
+    <entry file="file://$PROJECT_DIR$/application/views/scripts/parse/result.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="19" selection-start="741" selection-end="741" vertical-scroll-proportion="8.5">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="-0.65384614" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/scripts/parse/index.phtml">
+    <entry file="file://$PROJECT_DIR$/application/controllers/ApiController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="12" selection-start="78" selection-end="78" vertical-scroll-proportion="-4.576923">
+        <state line="6" column="50" selection-start="140" selection-end="140" vertical-scroll-proportion="0.120567374" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/scripts/index/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="302" selection-end="302" vertical-scroll-proportion="0.12028302">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/ErrorController.php">
+    <entry file="file://$PROJECT_DIR$/public/js/js.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/ApiController.php">
+    <entry file="file://$PROJECT_DIR$/application/views/scripts/parse/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="4" selection-start="208" selection-end="208" vertical-scroll-proportion="-2.6153846">
+        <state line="8" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="-5.230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/layouts/scripts/layout.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="36" selection-start="515" selection-end="515" vertical-scroll-proportion="-5.8846154">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/ImportController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="8" selection-start="277" selection-end="277" vertical-scroll-proportion="-12.423077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/scripts/index/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="102" selection-end="102" vertical-scroll-proportion="-1.9615384">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="5" selection-start="190" selection-end="190" vertical-scroll-proportion="-7.1923075">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/scripts/parse/result.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="-2.6153846">
+        <state line="33" column="54" selection-start="752" selection-end="752" vertical-scroll-proportion="-17.653847">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/ParseController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="67" selection-start="997" selection-end="997" vertical-scroll-proportion="0.29310346">
+        <state line="7" column="0" selection-start="148" selection-end="148" vertical-scroll-proportion="2.6923077">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/forms/Westwing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="28" selection-start="519" selection-end="519" vertical-scroll-proportion="-11.692307">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="36" selection-start="694" selection-end="694" vertical-scroll-proportion="0.27642277">
+          <folding>
+            <element signature="e#14165#14326#1" expanded="true" />
+            <element signature="e#14812#14973#1" expanded="true" />
+            <element signature="e#15057#15218#1" expanded="true" />
+            <element signature="e#15496#15657#1" expanded="true" />
+            <element signature="e#16917#17078#1" expanded="true" />
+            <element signature="e#19119#19280#1" expanded="true" />
+            <element signature="e#19848#20009#1" expanded="true" />
+            <element signature="e#34226#34387#1" expanded="true" />
+            <element signature="e#36671#41031#1" expanded="true" />
+            <element signature="e#41048#47676#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/forms/EditDictionary.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="19" selection-start="1395" selection-end="1395" vertical-scroll-proportion="0.5780142">
-          <folding>
-            <element signature="e#6#162#0" expanded="true" />
-          </folding>
+        <state line="78" column="9" selection-start="2379" selection-end="2379" vertical-scroll-proportion="0.814994">
+          <folding />
         </state>
       </provider>
     </entry>

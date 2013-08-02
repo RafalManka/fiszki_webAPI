@@ -30,8 +30,8 @@ class ImportController extends Zend_Controller_Action
         foreach ($file as $row) {
             list($word) = $row;
             $test = explode(";",$word);
-            $words[$counter]['word'] = str_replace("\"", "", $test[0]);
-            $words[$counter]['translation'] = str_replace("\"", "", $test[1]);
+            $words[$counter]['word'] = $test[0];
+            $words[$counter]['translation'] = $test[1];
             $counter++;
         }
 

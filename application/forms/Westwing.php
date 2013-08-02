@@ -11,36 +11,13 @@ class Application_Form_Westwing extends Zend_Form
             $row=0;
             while (($data = fgetcsv($handle, 1000, ";")) !== FALSE) {
 
-                /*
-                 * (Un-comment) the lines with a # if
-                 * you need to debbug the csv data.
-                 # $num = count($data);
-                 # Zend_Debug::dump($num);
-                 */
-
-                /*
-                 * I'm defining the condition ($row >=1) here to skip the first line of the
-                 * CSV file, which contains the header information.
-                 */
                 if ($row >=1) {
                     $csv_data[] = array('word' => $data[0], 'translation' => $data[1]);
-
-//                    foreach ($csv_data as $key => $csvDataRow) {
-//                        $firstname[$key] = $csvDataRow['firstname'];
-//                        $lastname[$key] = $csvDataRow['lastname'];
-//                    }
-
-                    /*
-                     * Order the result using php array_multisort function.
-                     */
-                    //array_multisort($firstname, SORT_ASC, $lastname, SORT_ASC, $csv_data);
-
                 }
                 $row++;
             }
 
             fclose($handle);
-            //Zend_Debug::dump($csv_data);
             return $csv_data;
         }
     }
@@ -56,22 +33,25 @@ class Application_Form_Westwing extends Zend_Form
 
         // Add an email element
         $this->addElement('text', 'lanuage', array(
-            'label'      => 'language long:',
+            'label'      => 'Pełna nazwa języka:',
             'required'   => true,
+            'class'      => 'search',
             'filters'    => array('StringTrim'),
 
         ));
 
         $this->addElement('text', 'lang_short', array(
-            'label'      => 'short version of language:',
+            'label'      => 'Skrótowa nazwa języka:',
             'required'   => true,
+            'class'      => 'search',
             'filters'    => array('StringTrim'),
 
         ));
 
         $this->addElement('text', 'set_name', array(
-            'label'      => 'name of set:',
+            'label'      => 'Nazwa zestawu słówek:',
             'required'   => true,
+            'class'      => 'search',
             'filters'    => array('StringTrim'),
         ));
 
@@ -80,43 +60,24 @@ class Application_Form_Westwing extends Zend_Form
          * using Zend_Form_Element_File.
          */
         $element = new Zend_Form_Element_File('csv');
-        $element->setLabel('Upload a *.csv data file:')
-            ->setRequired(true);
+        $element->setLabel('plik ze słówkami w formacie *.csv (wartości odseparowane znakiem ";"):')->setRequired(true);
         $element->addValidator('Count', false, 1);
         $element->addValidator('Size', false, 102400);
+        $element->setAttrib('id','button-green');
+
+
         // only *.csv extension allowed
         $element->addValidator('Extension', false, 'csv');
 
         // adding elements to form Object
         $this->addElements(array($element));
 
-        /*
-         * Disabled captcha code for the sake of testing purposes on this application.
-         */
-        /*
-            // Add a captcha
-            $this->addElement('captcha', 'captcha', array(
-                'label'      => 'Please enter the 5 letters displayed below:',
-                'required'   => true,
-                'captcha'    => array(
-                    'captcha' => 'Figlet',
-                    'wordLen' => 5,
-                    'timeout' => 300
-                )
-            ));
-        */
-
-        /*
-	 * Submit button
-	 */
         $this->addElement('submit', 'submit', array(
             'ignore'   => true,
-            'label'    => 'Upload file',
+            'label'    => 'Importuj plik',
+            'class'      => 'button-green'
         ));
 
-        /*
-	 * Add some CSRF protection (Cross Site Scripting)
-	 */
         $this->addElement('hash', 'csrf', array(
             'ignore' => true,
         ));

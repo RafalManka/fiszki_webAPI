@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Fiszki API</title>
+    <meta name="author" content="Rafał Mańka">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <link href="css/css.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/js.js"></script>
+</head>
+<body class="no-sidebar">
+<header role="banner">
+    <figure class="logo">
+        <a href="<?php echo $this->url(array('controller'=>'index','action'=>'index')) ;?>"/>
+    </figure>
+    <hgroup>
+        <h1><a href="/">Fiszki</a></h1>
+        <h2>Strona internetowa służąca jako uzupełnienie aplikacji na system Android</h2>
+    </hgroup>
+    <nav>
+        <ul id="navigation">
+            <li><a href="<?php echo $this->url(array('controller'=>'parse','action'=>'index')) ;?>">Dodaj</a></li>
+            <li><a href="<?php echo $this->url(array('controller'=>'api','action'=>'index')).'/fetchLanguages' ?>">API</a></li>
+            <li><a href="/about/">Item 3</a></li>
+        </ul>
+    </nav>
+</header>
+<div id="main">
+    <div id="content">
+        <div class="blog-index">
+            <article>
+                <?php echo $this->layout()->content; ?>
+            </article>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+
