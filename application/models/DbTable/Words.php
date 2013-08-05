@@ -33,16 +33,22 @@ class Application_Model_DbTable_Words extends Zend_Db_Table_Abstract
     	return $row;
     }
 
-    public function fetchWord($word){
+    public function fetchOrInsertWord($word){
         $query = $this->select()
             ->from(array('w'=>'word'), array('word_id'=>'w.word_id'))
             ->where('w.value = \''.urlencode($word).'\'');
 
-        return $this->fetchRow($query);
+        $row = $this->fetchRow($query);
+        if(!$row){
+            return $this->insertWord($word);
+        } else {
+            return $row['word_id'];
+        }
     }
 
 
-    public function insertWord($word){
+    public function insertWord($word)
+    {
         return $this->insert( array( 'value'=>urlencode($word) ) );
     }
 

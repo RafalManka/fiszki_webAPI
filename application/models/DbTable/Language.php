@@ -22,7 +22,7 @@ class Application_Model_DbTable_Language extends Zend_Db_Table_Abstract
     	return $row;
     }
 
-    public function fetchLanguage($language){
+    public function fetchOrInsertLanguage($language, $language_long){
 
 	     $query = $this
 		->select()
@@ -34,10 +34,14 @@ class Application_Model_DbTable_Language extends Zend_Db_Table_Abstract
 
 		$row = $this->fetchRow($query);
 
-		return $row['language_id'];
+        if(!$row){
+            return $this->insertLanguage($language, $language_long);
+        } else {
+            return $row['language_id'];
+        }
     }
 
-    public function insertLanguage($language, $language_long){
+    private function insertLanguage($language, $language_long){
     	return $this->insert( array('title'=>$language,'title_long'=>$language_long) );
     }
 }
