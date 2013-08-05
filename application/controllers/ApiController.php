@@ -16,8 +16,12 @@ class ApiController extends Zend_Controller_Action
     }
 
     public function init() {
+<<<<<<< HEAD
+        $this->_helper->layout()->disableLayout();
+=======
 
 
+>>>>>>> e181c906a8ad4a61949dbb7bde4c3afb9dbdb44d
         $this->_helper->viewRenderer->setNoRender(true);
     }
 

@@ -1,0 +1,51 @@
+﻿trel
+
+
+Merge branch 'master' of https://github.com/RafalManka/fiszki_webAPI
+
+Conflicts:
+	.idea/workspace.xml
+	application/Bootstrap.php
+	application/controllers/ApiController.php
+	application/controllers/ImportController.php
+	application/controllers/ParseController.php
+	application/forms/Westwing.php
+	application/views/scripts/parse/index.phtml
+	application/views/scripts/parse/result.phtml
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 4 and 1 different commit each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still merging.
+#   (use "git commit" to conclude merge)
+#
+# Changes to be committed:
+#
+#	modified:   .idea/workspace.xml
+#	new file:   af5guoud.uav.txt
+#	modified:   application/Bootstrap.php
+#	modified:   application/controllers/ApiController.php
+#	modified:   application/controllers/ImportController.php
+#	modified:   application/controllers/ParseController.php
+#	modified:   application/forms/EditDictionary.php
+#	modified:   application/forms/Westwing.php
+#	modified:   application/models/DbTable/Language.php
+#	modified:   application/models/DbTable/Wordhastranslation.php
+#	modified:   application/models/DbTable/Wordhaswordset.php
+#	modified:   application/models/DbTable/Words.php
+#	modified:   application/models/DbTable/Wordset.php
+#	new file:   application/views/scripts/import/save.phtml
+#	modified:   application/views/scripts/parse/index.phtml
+#	new file:   application/views/scripts/parse/result.phtml
+#
+

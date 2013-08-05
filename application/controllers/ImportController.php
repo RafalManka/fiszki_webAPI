@@ -18,6 +18,10 @@ class ImportController extends Zend_Controller_Action
     public function saveAction()
     {
 
+<<<<<<< HEAD
+
+
+=======
         // fetching everything from the form into variables
         $language_long = $this->getRequest()->getParam('lang_long');
         $language = $this->getRequest()->getParam('lang_short');
@@ -57,6 +61,7 @@ class ImportController extends Zend_Controller_Action
             .$translationId.' $wordToTranslationReltionId: '.$wordToTranslationReltionId
             .' $wordToWordsetRelationId: '.$wordToWordsetRelationId);
         }
+>>>>>>> e181c906a8ad4a61949dbb7bde4c3afb9dbdb44d
     }
 }
 
