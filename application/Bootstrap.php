@@ -3,16 +3,17 @@
 class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
 {
 
- 	public function _initRoutes()
-	{
+    public function _initRoutes()
+    {
 
-	  $front = Zend_Controller_Front::getInstance();
+        $front = Zend_Controller_Front::getInstance();
 
-	  $router = $front->getRouter();
+        $router = $front->getRouter();
 
-	  $restRoute = new Zend_Rest_Route($front);
-	  $router->addRoute('default', $restRoute);
+        $restRoute = new Zend_Rest_Route($front, array(), array(
+            'default' => array('api') ) );
 
-	}
+        $router->addRoute('rest', $restRoute);
+
+    }
 }
-

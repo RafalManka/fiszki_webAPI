@@ -1715,7 +1715,7 @@ body {
 
 #content>div {
     padding-top: 0;
-    max-width: 900px
+
 }
 
 .archives-link {
@@ -1857,5 +1857,44 @@ figure.code {
 }
 
 
+article{
+    width:100%;
+}
 
+/*************
+        LAST EDIT OF WORDS BEFORE UPLOAD
+*******************/
+.someclas{
+    width:100%;
+}
 
+.wordset-label, .word-original, #submit, .optional{
+
+    clear: both;
+}
+
+.word-translation, .wordset-label, .word-original, .submit-wordset{
+    margin:5px;
+}
+.submit-wordset{
+    float: left;
+    clear: both;
+    padding:15px;
+    width: 350px;
+    margin-top: 20px;
+}
+
+.row-wrapper {
+    float:left;
+    outline: 1px solid rgba(0, 0, 0, 0.1);
+}
+.label {
+    margin-left: 7px;
+    color: rgb(105, 105, 105);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.clear{
+    clear: both;
+}

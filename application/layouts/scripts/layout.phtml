@@ -5,9 +5,10 @@
     <title>Fiszki API</title>
     <meta name="author" content="Rafał Mańka">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-    <link href="css/css.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <link href="" media="screen, projection" rel="stylesheet" type="text/css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="js/js.js"></script>
+    <?php echo $this->headScript()->appendFile($this->baseUrl().'/js/js.js'); ?>
+    <?php echo $this->headLink()->prependStylesheet($this->baseUrl().'/css/css.css');  ?>
 </head>
 <body class="no-sidebar">
 <header role="banner">

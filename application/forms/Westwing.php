@@ -11,13 +11,16 @@ class Application_Form_Westwing extends Zend_Form
             $row=0;
             while (($data = fgetcsv($handle, 1000, ";")) !== FALSE) {
 
-                if ($row >=1) {
-                    $csv_data[] = array('word' => $data[0], 'translation' => $data[1]);
-                }
-                $row++;
+                    if ($row >1 && sizeof($data )> 1) {
+                        $csv_data[] = array('word' => $data[0], 'translation' => $data[1]);
+                    }
+                    $row++;
+
+
             }
 
             fclose($handle);
+            //var_dump($csv_data);die;
             return $csv_data;
         }
     }

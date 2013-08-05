@@ -4,4 +4,7 @@
     </h1>
 </hgroup>
 
-<?php echo $this->parseForm; ?>
+<?php
+
+$this->parseForm->setAction($this->url(array('controller'=>'parse','action'=>'submit')));
+echo $this->parseForm; ?>
