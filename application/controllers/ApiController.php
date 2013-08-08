@@ -16,20 +16,16 @@ class ApiController extends Zend_Controller_Action
     }
 
     public function init() {
-<<<<<<< HEAD
+
         $this->_helper->layout()->disableLayout();
-=======
-
-
->>>>>>> e181c906a8ad4a61949dbb7bde4c3afb9dbdb44d
         $this->_helper->viewRenderer->setNoRender(true);
     }
 
     public function indexAction() {
-       
+
     }
- 	
-    public function getAction() {   
+
+    public function getAction() {
 
         switch ($this->getRequest()->getParam('id')) {
             case 'fetchLanguages':
@@ -42,40 +38,42 @@ class ApiController extends Zend_Controller_Action
                 break;
             case 'fetchWords':
 
-             	$model = new Application_Model_DbTable_Words();
-                $words = $model->fetchWords($_GET['language'],$_GET['topic']);
+                $model = new Application_Model_DbTable_Words();
+                $words = $model->fetchWords($this->getRequest()->getParam('language'),$this->getRequest()->getParam('topic'));
 
-		$wordsInfo = array();
-		$count = -1;
+                $wordsInfo = array();
+                $count = -1;
                 $tempTitle='';
-		foreach ($words as $word){
-			$wordsinfo['language_id'] = $word['language_id'];
-			$wordsinfo['language'] = $word['language'];
-			$wordsinfo['wordset_id'] = $word['wordset_id'];
-			$wordsinfo['wordset'] = $word['wordset'];
 
-			if($tempTitle==$word['word']){		
-				$counter++;
-				$wordsinfo['words'][ $count ]['translation'][ $counter ] = urldecode($word['translation']);
-			} else {
-				$tempTitle=$word['word'];
-				$counter=0;				
-				$count++;
-				$wordsinfo['words'][ $count ]['word'] = urldecode($word['word']);
-				$wordsinfo['words'][ $count ]['translation'][ $counter ] = urldecode($word['translation']);
+                $counter=0;
+                foreach ($words as $word){
+                    $wordsinfo['language_id'] = $word['language_id'];
+                    $wordsinfo['locale'] = $word['locale'];
+                    $wordsinfo['language'] = $word['language'];
+                    $wordsinfo['wordset_id'] = $word['wordset_id'];
+                    $wordsinfo['wordset'] = $word['wordset'];
 
-			}				
-		}
+                    if($tempTitle==$word['word']){
+                        $counter++;
+                        $wordsinfo['words'][ $count ]['translation'][ $counter ] = urldecode($word['translation']);
+                    } else {
+                        $tempTitle=$word['word'];
+                        $counter=0;
+                        $count++;
+                        $wordsinfo['words'][ $count ]['word'] = urldecode($word['word']);
+                        $wordsinfo['words'][ $count ]['translation'][ $counter ] = urldecode($word['translation']);
+
+                    }
+                }
                 break;
             default:
                 echo 'action was not specified';
                 break;
         }
 
-        // if(!empty($wordsInfo))
-    	echo Zend_Json::encode($wordsinfo);
-    
-	}
+        echo Zend_Json::encode($wordsinfo);
+
+    }
 
 }
 

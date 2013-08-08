@@ -9,12 +9,10 @@ class ParseController extends Zend_Controller_Action
         $this->view->form = $form;
     }
 
-<<<<<<< HEAD
+
     public function editAction(){
 
-=======
-    public function postAction(){
->>>>>>> e181c906a8ad4a61949dbb7bde4c3afb9dbdb44d
+
         $form    = new Application_Form_Westwing();
         if ($this->getRequest()->isPost()) {
             $language = $this->getRequest()->getParam('lanuage');
@@ -40,14 +38,11 @@ class ParseController extends Zend_Controller_Action
                         ));
                         $counter++;
                     }
-<<<<<<< HEAD
-=======
 
->>>>>>> e181c906a8ad4a61949dbb7bde4c3afb9dbdb44d
                     $parseForm = new Application_Form_EditDictionary(
                         array('DynamicForm'=>$temp)
                     );
-<<<<<<< HEAD
+
                     $this->view->parseForm = $parseForm;
                 } else {
                     $this->view->errorMessage = "Error! No results to display";
@@ -92,19 +87,7 @@ class ParseController extends Zend_Controller_Action
             $whw_model = new Application_Model_DbTable_Wordhaswordset();
             $wordToWordsetRelationId = $whw_model->fetchOrInsertRelation($wordId, $wordsetId);
 
-            echo '<pre>';
-            var_dump('$languageId: '.$languageId.' $wordsetId: '
-            .$wordsetId.' $wordId: '.$wordId.' $translationId: '
-            .$translationId.' $wordToTranslationReltionId: '.$wordToTranslationReltionId
-            .' $wordToWordsetRelationId: '.$wordToWordsetRelationId);
-=======
-                    $this->view->editParsedCsvForm = $parseForm;
-                } else {
-                    $this->view->errorMessage = "Error! No results to display";
-                }
-                $this->render('result');
-                return;
->>>>>>> e181c906a8ad4a61949dbb7bde4c3afb9dbdb44d
+
         }
     }
 

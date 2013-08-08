@@ -13,7 +13,8 @@ class Application_Model_DbTable_Words extends Zend_Db_Table_Abstract
 		->from(array('w' => 'word'), array(
 						'word'		=>'w.value',
 						'translation'	=>'t.value',
-						'language'	=>'l.title',
+						'locale'	=>'l.title',
+						'language' => 'l.title_long',
 						'wordset'	=>'ws.wordset_title'
 		))
 		->joinInner(array('wht' => 'word_has_translation'),	'w.word_id=wht.word_id')
