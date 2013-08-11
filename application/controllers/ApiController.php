@@ -26,6 +26,7 @@ class ApiController extends Zend_Controller_Action
     }
 
     public function getAction() {
+        $wordsinfo=array();
 
         switch ($this->getRequest()->getParam('id')) {
             case 'fetchLanguages':
@@ -38,10 +39,9 @@ class ApiController extends Zend_Controller_Action
                 break;
             case 'fetchWords':
 
+
                 $model = new Application_Model_DbTable_Words();
                 $words = $model->fetchWords($this->getRequest()->getParam('language'),$this->getRequest()->getParam('topic'));
-
-                $wordsInfo = array();
                 $count = -1;
                 $tempTitle='';
 

@@ -22,6 +22,17 @@ class Application_Model_DbTable_Language extends Zend_Db_Table_Abstract
     	return $row;
     }
 
+    public function getCountriesList() {
+        $select = $this ->select()
+                        ->from(
+                            $this->_name,
+                            array(  'key'   => 'title',
+                                    'value' => 'title_long'));
+        $result = $this->getAdapter()->fetchAll($select);
+        return $result;
+    }
+
+
     public function fetchOrInsertLanguage($language, $language_long){
 
 	     $query = $this

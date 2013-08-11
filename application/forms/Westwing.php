@@ -36,12 +36,14 @@ class Application_Form_Westwing extends Zend_Form
 
         ));
 
-        $this->addElement('text', 'lang_short', array(
+        $countries = new Application_Model_DbTable_Language();
+        $countries_list = $countries->getCountriesList();
+        $this->addElement('select', 'lang_short', array(
             'label'      => 'Skrótowa nazwa języka:',
             'required'   => true,
             'class'      => 'search',
             'filters'    => array('StringTrim'),
-
+            'multiOptions' => $countries_list
         ));
 
         $this->addElement('text', 'set_name', array(

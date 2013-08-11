@@ -2,23 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54145050-8d0e-43ac-ad59-d2e69e15bbbd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/forms/LanguageList.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/scripts/parse/languages.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/ApiController.php" afterPath="$PROJECT_DIR$/application/controllers/ApiController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Bootstrap.php" afterPath="$PROJECT_DIR$/application/Bootstrap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/ImportController.php" afterPath="$PROJECT_DIR$/application/controllers/ImportController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/DbTable/Language.php" afterPath="$PROJECT_DIR$/application/models/DbTable/Language.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/ParseController.php" afterPath="$PROJECT_DIR$/application/controllers/ParseController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/forms/Westwing.php" afterPath="$PROJECT_DIR$/application/forms/Westwing.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/DbTable/Words.php" afterPath="$PROJECT_DIR$/application/models/DbTable/Words.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/configs/application.ini.template" afterPath="$PROJECT_DIR$/application/configs/application.ini.template" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/DbTable/Wordhastranslation.php" afterPath="$PROJECT_DIR$/application/models/DbTable/Wordhastranslation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/DbTable/Wordhaswordset.php" afterPath="$PROJECT_DIR$/application/models/DbTable/Wordhaswordset.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/configs/application.ini" afterPath="$PROJECT_DIR$/application/configs/application.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/scripts/parse/index.phtml" afterPath="$PROJECT_DIR$/application/views/scripts/parse/index.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/layouts/scripts/layout.phtml" afterPath="$PROJECT_DIR$/application/layouts/scripts/layout.phtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/scripts/parse/submit.phtml" afterPath="$PROJECT_DIR$/application/views/scripts/parse/submit.phtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fiszki_webAPI.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="54145050-8d0e-43ac-ad59-d2e69e15bbbd" time="1375991900001" ignored="false" />
+    <file path="/Dummy.txt" changelist="54145050-8d0e-43ac-ad59-d2e69e15bbbd" time="1376249147708" ignored="false" />
     <file path="/submit.phtml" changelist="54145050-8d0e-43ac-ad59-d2e69e15bbbd" time="1375737230931" ignored="false" />
     <file path="/layout.phtml" changelist="54145050-8d0e-43ac-ad59-d2e69e15bbbd" time="1375738014096" ignored="false" />
+    <file path="/ApiController.php" changelist="54145050-8d0e-43ac-ad59-d2e69e15bbbd" time="1376250237007" ignored="false" />
+    <file path="/Words.php" changelist="54145050-8d0e-43ac-ad59-d2e69e15bbbd" time="1376250425924" ignored="false" />
+    <file path="/Wordhastranslation.php" changelist="54145050-8d0e-43ac-ad59-d2e69e15bbbd" time="1376252361807" ignored="false" />
+    <file path="/Wordhaswordset.php" changelist="54145050-8d0e-43ac-ad59-d2e69e15bbbd" time="1376251298920" ignored="false" />
+    <file path="/ParseController.php" changelist="54145050-8d0e-43ac-ad59-d2e69e15bbbd" time="1376254191838" ignored="false" />
+    <file path="/languages.phtml" changelist="54145050-8d0e-43ac-ad59-d2e69e15bbbd" time="1376253035348" ignored="false" />
+    <file path="/a.dummy" changelist="54145050-8d0e-43ac-ad59-d2e69e15bbbd" time="1376256996835" ignored="false" />
+    <file path="/locale.php" changelist="54145050-8d0e-43ac-ad59-d2e69e15bbbd" time="1376256986822" ignored="false" />
+    <file path="/LanguageList.php" changelist="54145050-8d0e-43ac-ad59-d2e69e15bbbd" time="1376257577080" ignored="false" />
+    <file path="/Westwing.php" changelist="54145050-8d0e-43ac-ad59-d2e69e15bbbd" time="1376258282318" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,19 +48,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ApiController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/ApiController.php">
+      <file leaf-file-name="Language.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/DbTable/Language.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="51" selection-start="1660" selection-end="1660" vertical-scroll-proportion="-13.041667">
+            <state line="29" column="53" selection-start="747" selection-end="747" vertical-scroll-proportion="-10.625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Words.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/models/DbTable/Words.php">
+      <file leaf-file-name="LanguageList.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/forms/LanguageList.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="23" column="36" selection-start="509" selection-end="509" vertical-scroll-proportion="-4.6621623">
+              <folding>
+                <element signature="e#6#162#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Westwing.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/forms/Westwing.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="50" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.26408452">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="languages.phtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/scripts/parse/languages.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Wordhaswordset.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/DbTable/Wordhaswordset.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="0" selection-start="463" selection-end="463" vertical-scroll-proportion="-11.875">
               <folding />
             </state>
           </provider>
@@ -74,23 +113,47 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/Bootstrap.php" />
-        <option value="$PROJECT_DIR$/application/configs/application.ini" />
-        <option value="$PROJECT_DIR$/application/controllers/ParseController.php" />
-        <option value="$PROJECT_DIR$/application/forms/Westwing.php" />
-        <option value="$PROJECT_DIR$/application/views/scripts/parse/index.phtml" />
         <option value="$PROJECT_DIR$/application/views/scripts/parse/submit.phtml" />
         <option value="$PROJECT_DIR$/application/configs/application.ini.template" />
         <option value="$PROJECT_DIR$/application/layouts/scripts/layout.phtml" />
+        <option value="$PROJECT_DIR$/application/configs/application.ini" />
+        <option value="$PROJECT_DIR$/application/controllers/ImportController.php" />
+        <option value="$PROJECT_DIR$/application/models/DbTable/Wordhaswordset.php" />
         <option value="$PROJECT_DIR$/application/controllers/ApiController.php" />
+        <option value="$PROJECT_DIR$/application/models/DbTable/Words.php" />
+        <option value="$PROJECT_DIR$/application/models/DbTable/Wordhastranslation.php" />
+        <option value="$PROJECT_DIR$/application/views/scripts/parse/languages.phtml" />
+        <option value="$PROJECT_DIR$/application/controllers/ParseController.php" />
+        <option value="$PROJECT_DIR$/application/models/DbTable/locale.php" />
+        <option value="$PROJECT_DIR$/application/models/DbTable/Locale.php" />
+        <option value="$PROJECT_DIR$/application/forms/LanguageList.php" />
+        <option value="$PROJECT_DIR$/application/models/DbTable/Language.php" />
+        <option value="$PROJECT_DIR$/application/forms/Westwing.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
-    <option name="width" value="1920" />
-    <option name="height" value="1032" />
+    <option name="x" value="-1" />
+    <option name="y" value="25" />
+    <option name="width" value="1922" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -118,6 +181,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -350,42 +414,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fiszki_webAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fiszki_webAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="configs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-  </component>
-  <component name="PublishConfig">
-    <servers>
-      <server id="f8a437bd-4911-41b6-a016-2b3406c3b4b9">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </server>
-    </servers>
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -395,6 +433,9 @@
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
@@ -412,25 +453,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1920" height="1032" extended-state="0" />
+    <frame x="-1" y="25" width="1922" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295711" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32127193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1965812" sideWeight="0.6704289" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19850586" sideWeight="0.67872804" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20654628" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295711" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -497,84 +538,115 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/controllers/ApiController.php">
+    <entry file="file://$PROJECT_DIR$/application/configs/application.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="10" column="18" selection-start="466" selection-end="466" vertical-scroll-proportion="0.17964073">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/configs/application.ini">
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="468" selection-end="468" vertical-scroll-proportion="-7.2" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="44" selection-start="352" selection-end="352" vertical-scroll-proportion="0.28708133" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/ParseController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="37" selection-start="3412" selection-end="3412" vertical-scroll-proportion="0.6411483" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/forms/Westwing.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="54" selection-start="1738" selection-end="1738" vertical-scroll-proportion="0.48444977" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/scripts/parse/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.017942583" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="783" column="7" selection-start="15241" selection-end="15247" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/scripts/parse/submit.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="106" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/scripts/index/index.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="86" selection-start="186" selection-end="259" vertical-scroll-proportion="0.07177033" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/configs/application.ini.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="382" selection-end="466" vertical-scroll-proportion="0.16167665">
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="39" selection-start="662" selection-end="662" vertical-scroll-proportion="0.30538923" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/layouts/scripts/layout.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="35" selection-start="841" selection-end="841" vertical-scroll-proportion="0.28708133" />
+        <state line="6" column="52" selection-start="261" selection-end="261" vertical-scroll-proportion="0.10752688">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/ImportController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="0" selection-start="2380" selection-end="2380" vertical-scroll-proportion="0.8207885">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/ApiController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="51" selection-start="1660" selection-end="1660" vertical-scroll-proportion="-13.041667">
+        <state line="43" column="39" selection-start="1117" selection-end="1117" vertical-scroll-proportion="-9.625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/DbTable/Words.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="77" selection-start="885" selection-end="885" vertical-scroll-proportion="0.6893382">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/DbTable/Wordhastranslation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="565" selection-end="565" vertical-scroll-proportion="0.38602942">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/DbTable/Wordhaswordset.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="463" selection-end="463" vertical-scroll-proportion="-11.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/ParseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="41" selection-start="172" selection-end="172" vertical-scroll-proportion="0.18485916">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/forms/UploadForm.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/Zend/Form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1081" column="20" selection-start="27942" selection-end="27942" vertical-scroll-proportion="-0.6611418">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/scripts/parse/languages.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/DbTable/Language.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="53" selection-start="747" selection-end="747" vertical-scroll-proportion="-10.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/forms/LanguageList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="36" selection-start="509" selection-end="509" vertical-scroll-proportion="-4.6621623">
+          <folding>
+            <element signature="e#6#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/forms/Westwing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="50" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.26408452">
           <folding />
         </state>
       </provider>

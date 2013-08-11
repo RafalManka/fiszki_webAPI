@@ -82,12 +82,25 @@ class ParseController extends Zend_Controller_Action
             $translationId = $model->fetchOrInsertWord($word['translation']);
 
             $wht_model = new Application_Model_DbTable_Wordhastranslation();
-            $wordToTranslationReltionId = $wht_model->fetchOrInsertRelation($wordId['word_id'], $translationId['word_id']);
+            $wordToTranslationReltionId = $wht_model->fetchOrInsertRelation($wordId, $translationId);
 
             $whw_model = new Application_Model_DbTable_Wordhaswordset();
             $wordToWordsetRelationId = $whw_model->fetchOrInsertRelation($wordId, $wordsetId);
 
 
+        }
+    }
+
+    public function languagesAction(){
+        $file = 'csv/locale';
+        $contents = file_get_contents($file);
+        $rows        = explode("\n", $contents);
+
+        $model = new Application_Model_DbTable_Language();
+        foreach($rows as $row){
+            $r = explode(';',$row);
+            if(sizeof($r)>1)
+                $model->fetchOrInsertLanguage($r[0],$r[1]);
         }
     }
 

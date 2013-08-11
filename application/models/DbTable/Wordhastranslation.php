@@ -20,6 +20,7 @@ protected $_name = 'word_has_translation';
             ->from(array('wht'=>'word_has_translation'))
             ->where('wht.word_id  = \''.$wordId.'\' AND wht.translation_id = \''.$translationId.'\'');
 
+
         $row = $this->fetchRow($query);
 
         if($row!=null){

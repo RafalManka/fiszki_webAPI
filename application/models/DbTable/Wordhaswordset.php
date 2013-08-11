@@ -13,9 +13,11 @@ class Application_Model_DbTable_Wordhaswordset extends Zend_Db_Table_Abstract
             ->from(array('whw'=>'word_has_wordset'))
             ->where('whw.word_id  = \''.$wordId.'\' AND whw.wordset_id = \''.$wordsetId.'\'');
 
+
         $row = $this->fetchRow($query);
 
         if($row!=null){
+
             return $row['id'];
         } else {
             return $this->saveRelation($wordId, $wordsetId);
