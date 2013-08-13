@@ -15,8 +15,11 @@ class ParseController extends Zend_Controller_Action
 
         $form    = new Application_Form_Westwing();
         if ($this->getRequest()->isPost()) {
-            $language = $this->getRequest()->getParam('lanuage');
+
             $lang_short = $this->getRequest()->getParam('lang_short');
+            $model = new Application_Model_DbTable_Language();
+            $language = $model->getLanguageByLocale($lang_short);
+            $language = $language['lanuage'];
             $set_name = $this->getRequest()->getParam('set_name');
 
                 $result_array = $form->parseData($_FILES["csv"]["tmp_name"]);
@@ -56,8 +59,8 @@ class ParseController extends Zend_Controller_Action
 
         // fetching everything from the form into variables
         $language_long = $this->getRequest()->getParam('lang_long');
-        $language = $this->getRequest()->getParam('lang_short');
-        $wordset_name = $this->getRequest()->getParam('name_of_set');
+         $language = $this->getRequest()->getParam('lang_short');
+         $wordset_name = $this->getRequest()->getParam('name_of_set');
         $counter=0;
         $wordsInfo=array();
         while(null!==$this->getRequest()->getParam('word_'.$counter.'_original')){

@@ -35,7 +35,7 @@ class Application_Model_DbTable_Language extends Zend_Db_Table_Abstract
 
     public function fetchOrInsertLanguage($language, $language_long){
 
-	     $query = $this
+	      $query = $this
 		->select()
 		->from(array('l' => 'language'), array(
 						'language_id'		=>'l.language_id',
@@ -54,6 +54,19 @@ class Application_Model_DbTable_Language extends Zend_Db_Table_Abstract
 
     private function insertLanguage($language, $language_long){
     	return $this->insert( array('title'=>$language,'title_long'=>$language_long) );
+    }
+
+
+    public function getLanguageByLocale($locale){
+        $select = $this ->select()
+            ->from(
+                $this->_name,
+                array(  'locale'   => 'title',
+                        'lanuage' => 'title_long'))
+            ->where('title = '.'\''.$locale.'\'');
+
+
+        return $this->getAdapter()->fetchRow($select);
     }
 }
 

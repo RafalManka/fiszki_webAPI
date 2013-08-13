@@ -28,18 +28,18 @@ class Application_Form_Westwing extends Zend_Form
         $this->setName('Import słowników');
         $this->setAttrib('enctype', 'multipart/form-data');
 
-        $this->addElement('text', 'lanuage', array(
+/*        $this->addElement('text', 'lanuage', array(
             'label'      => 'Pełna nazwa języka:',
             'required'   => true,
             'class'      => 'search',
             'filters'    => array('StringTrim'),
 
-        ));
+        ));*/
 
         $countries = new Application_Model_DbTable_Language();
         $countries_list = $countries->getCountriesList();
         $this->addElement('select', 'lang_short', array(
-            'label'      => 'Skrótowa nazwa języka:',
+            'label'      => 'Język:',
             'required'   => true,
             'class'      => 'search',
             'filters'    => array('StringTrim'),

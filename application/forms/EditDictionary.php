@@ -38,8 +38,7 @@ class Application_Form_EditDictionary extends Zend_Form {
                             'value' => $attribes['label'],
                             'class'=>'word-original search'
                         )
-                    )
-                ;
+                    );
 
                 $this
                     ->addElement('text',
@@ -49,8 +48,8 @@ class Application_Form_EditDictionary extends Zend_Form {
                             'value' => $attribes['value'],
                             'class'=>'word-translation search'
                         )
-                    )
-                ;
+                    );
+
             } else {
                 $this
                     ->addElement('text',
@@ -71,6 +70,8 @@ class Application_Form_EditDictionary extends Zend_Form {
 
 
         $elements = $this->getElements();
+        $this->getElement('lang_long')->setAttrib('readonly', 'true');
+        $this->getElement('lang_short')->setAttrib('readonly', 'true');
         foreach ($elements as $elem){
             $elem->removeDecorator('HtmlTag');
             $elem->setDecorators(array(
